@@ -9,4 +9,13 @@ public class Assignment {
     public Grade getGrade(Student student) {
         return map.get(student);
     }
+
+    public List<Student> getStudentsWithGrade(Grade grade) {
+        List<Student> result = new ArrayList<>();
+        for (Map.Entry<Student, Grade> entry : map.entrySet()) {
+            if (entry.getValue() == grade)
+                result.add(entry.getKey());
+        }
+        return result;
+    }
 }
