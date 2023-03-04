@@ -1,16 +1,12 @@
-package Set1;
-
-import java.util.ArrayList;
 import java.util.List;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
 
-public class Student {
-    private String name;
-    private String matric;
-    private List <Assignment> assignmentList;
+public class Assignment {
+    private Map<Student, Grade> map;
 
-    public getStudentByMatricNo(String matric) {
-        return;
+    public Grade getGrade(Student student) {
+        return map.get(student);
     }
-
-
 }

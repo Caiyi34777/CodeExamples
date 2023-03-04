@@ -1,21 +1,12 @@
-package Set1;
-
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Map;
-import java.util.HashMap;
 
 public class Administrator {
-    private HashMap <String, Student> studentsMap;
-    private List <List <Assignment>> allAssignmentList;
+    private List<Student> studentList;
+    private List<Assignment> assignmentList;
 
-    public getStudentByMatric(String matric) {
-        return studentsMap.get(matric);
+    public Grade getGrade(Student student, Assignment assignment) {
+        return assignment.getGrade(student);
     }
-
-
-
-
-
 
 }

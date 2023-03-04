@@ -1,17 +1,17 @@
-package Set1;
-
 import java.util.List;
 import java.util.ArrayList;
 
-
 public class Student {
     private String name;
-    private String matric;
-    private  <Assignment> assignmentList;
+    private String matric; // unique id
+    private List<Assignment> assignmentList;
 
-    public getStudentByMatricNo(String matric) {
-        return;
+    String getMatric() {
+        return matric;
     }
 
+    Grade getGrade(Assignment assignment) {
+        return assignment.getGrade(this);
+    }
 
 }
