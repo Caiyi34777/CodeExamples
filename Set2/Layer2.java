@@ -1,11 +1,15 @@
 class Layer2 {
     private InnerMost innerMost;
 
-    InnerMost getInnerMost() {
+    public void setInnerMost(InnerMost innerMost) {
+        this.innerMost = innerMost;
+    }
+
+    public InnerMost getInnerMost() {
         return innerMost;
     }
 
-    int getValue() {
+    public int getValue() {
         return innerMost.getValue();
     }
 }

@@ -1,19 +1,24 @@
 class OuterMost {
     private Layer1 layer1;
 
-    Layer1 getLayer1() {
+    public void setLayer1(Layer1 layer1) {
+        this.layer1 = layer1;
+    }
+
+    public Layer1 getLayer1() {
         return layer1;
     }
 
-    int getValue() {
+    // fast retrieval method
+    public int getValue() {
         return layer1.getValue();
     }
 
-    boolean isValueGreaterThan(int x) {
+    public boolean isValueGreaterThan(int x) {
         return getValue() > x;
     }
 
-    boolean isValueGreaterThan100() {
+    public boolean isValueGreaterThan100() {
         return getValue() > 100;
     }
 }

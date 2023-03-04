@@ -6,6 +6,10 @@ import java.util.HashMap;
 public class Assignment {
     private Map<Student, Grade> map;
 
+    public void setMap(Map<Student, Grade> map) {
+        this.map = map;
+    }
+
     public Grade getGrade(Student student) {
         return map.get(student);
     }
