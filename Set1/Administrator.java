@@ -30,5 +30,5 @@ public class Administrator {
         List<Student> result = new ArrayList<>(set);
         return result;
     }
-    
+
 }
