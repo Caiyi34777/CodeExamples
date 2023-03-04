@@ -5,6 +5,10 @@ class Layer2 {
         this.innerMost = innerMost;
     }
 
+    public void setValue(int value) {
+        innerMost.setValue(value);
+    }
+
     public InnerMost getInnerMost() {
         return innerMost;
     }

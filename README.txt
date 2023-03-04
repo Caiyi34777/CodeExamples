@@ -5,4 +5,3 @@ Set 2
 - Naive example on faster get() crossing over layers
 
 Set 3
-- Naive example on faster set() crossing over layers

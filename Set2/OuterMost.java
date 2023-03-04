@@ -14,6 +14,11 @@ class OuterMost {
         return layer1.getValue();
     }
 
+    // fast retrieval method
+    public void setValue(int value) {
+        layer1.setValue(value);
+    }
+
     public boolean isValueGreaterThan(int x) {
         return getValue() > x;
     }

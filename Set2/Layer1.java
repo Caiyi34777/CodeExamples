@@ -5,6 +5,10 @@ class Layer1 {
         this.layer2 = layer2;
     }
 
+    public void setValue(int value) {
+        layer2.setValue(value);
+    }
+
     public Layer2 getLayer2() {
         return layer2;
     }
