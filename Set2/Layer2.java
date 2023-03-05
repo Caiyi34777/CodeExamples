@@ -1,3 +1,5 @@
+package feature.objectconstruction.testgeneration.example.graphcontruction.SelfDefinedClasses.Set2;
+
 class Layer2 {
     private InnerMost innerMost;
 

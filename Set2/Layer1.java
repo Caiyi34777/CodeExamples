@@ -1,3 +1,5 @@
+package feature.objectconstruction.testgeneration.example.graphcontruction.SelfDefinedClasses.Set2;
+
 class Layer1 {
     private Layer2 layer2;
 

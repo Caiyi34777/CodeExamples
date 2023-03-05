@@ -1,3 +1,5 @@
+package feature.objectconstruction.testgeneration.example.graphcontruction.SelfDefinedClasses.Set1;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Map;

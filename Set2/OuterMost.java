@@ -1,3 +1,5 @@
+package feature.objectconstruction.testgeneration.example.graphcontruction.SelfDefinedClasses.Set2;
+
 class OuterMost {
     private Layer1 layer1;
 
