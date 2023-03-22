@@ -1,4 +1,4 @@
-package feature.objectconstruction.testgeneration.example.graphcontruction.SelfDefinedClasses.Set1;
+package Set1;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -8,6 +8,11 @@ import java.util.HashSet;
 public class Administrator {
     private List<Student> studentList;
     private List<Assignment> assignmentList;
+
+    public Administrator(List<Student> studentList, List<Assignment> assignmentList) {
+        this.studentList = studentList;
+        this.assignmentList = assignmentList;
+    }
 
     public void setStudentList(List<Student> studentList) {
         this.studentList = studentList;

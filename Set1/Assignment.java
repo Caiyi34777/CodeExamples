@@ -1,12 +1,15 @@
-package feature.objectconstruction.testgeneration.example.graphcontruction.SelfDefinedClasses.Set1;
+package Set1;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
-import java.util.HashMap;
 
 public class Assignment {
     private Map<Student, Grade> map;
+
+    public Assignment(Map<Student, Grade> map) {
+        this.map = map;
+    }
 
     public void setMap(Map<Student, Grade> map) {
         this.map = map;

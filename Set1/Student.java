@@ -1,11 +1,15 @@
-package feature.objectconstruction.testgeneration.example.graphcontruction.SelfDefinedClasses.Set1;
+package Set1;
 
 import java.util.List;
-import java.util.ArrayList;
 
 public class Student {
     private String matric; // unique id
     private List<Assignment> assignmentList;
+
+    public Student(String matric, List<Assignment> assignmentList) {
+        this.matric = matric;
+        this.assignmentList = assignmentList;
+    }
 
     public void setMatric(String matric) {
         this.matric = matric;

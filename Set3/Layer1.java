@@ -1,4 +1,4 @@
-package Set2;
+package Set3;
 
 class Layer1 {
     private Layer2 layer2;
@@ -7,15 +7,15 @@ class Layer1 {
         this.layer2 = layer2;
     }
 
-//    public void setValue(int value) {
-//        layer2.setValue(value);
-//    }
+    public void setValue(int value) {
+        layer2.setValue(value);
+    }
 
     public Layer2 getLayer2() {
         return layer2;
     }
 
-//    public int getValue() {
-//        return layer2.getValue();
-//    }
+    public int getValue() {
+        return layer2.getValue();
+    }
 }
